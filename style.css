@@ -1,19 +1,23 @@
 *{
     font-family: 'Montserrat';
+    box-sizing: border-box;
     
 }
 
 .content{
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 3000px;
 }
 
 .container1{
     width: 100%;
-    margin: 0 auto;
     background-color: whitesmoke;
-    min-height: 100vh;
+    min-height: 80vh;
     background-image: url(./images/banner.png);
     background-size: 100% 80%;
     background-repeat: no-repeat;
@@ -25,35 +29,33 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    
 }
 
-header h4{
+#logo{
+    position: absolute;
     color: white;
     font-size: 20px;
+    left: 15%;
 }
 
 header nav {
-    position: relative;
     display: flex;
-    
-    
 }
 
 nav>ul>li{
     list-style: none;
     position: relative;
-    margin-left: 30px;
+    margin-left: 50px;
     display: flex;
     float: left;
-    left: 20px;
-    margin-left: 30px;
+    left: 95%;
+    margin-top: 15px;
 }
 
 nav>ul>li>a {
     text-decoration: none;
     color: rgb(255,255,255);
-    font-weight: 300;
+    font-weight: 500;
 }
 
 header h5 {
@@ -61,16 +63,19 @@ header h5 {
     font-size: 15px;
 }
 
-header .btn1{
-    position: relative;
-    color: rgb(255,255,255);
-    padding: 2px 5px 2px 7px;
-    margin-top: 3px;
+.btn1{
+    display: flex;
     background: #23A6F0;
-    font-size: 0.75em;
-    font-weight: bold;
+    padding: 10px 25px;
+    padding-left: 5px;
+    border: 1px solid #23A6F0;
+    border-radius: 5px;
     letter-spacing: 1px;
-    border: 0;
+    font-weight: bold;
+    color: white;
+    position:absolute; 
+    right: 20%;
+    margin-top: 20px;
 }
 
 /* styling the text on the home page */
@@ -78,12 +83,12 @@ header .btn1{
     width: auto;
     height: auto;
     margin: 0 auto;
-    padding: 120px;
+    padding: 150px;
     position: relative;
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 3.5em;
     letter-spacing: 3px;
     font-weight: bold;
     text-align: center;
@@ -91,29 +96,80 @@ h1 {
 }
 
 #text>p{
-    font-weight: 550;
-    letter-spacing: 4px;
+    font-weight: 450;
+    letter-spacing: 2.8px;
     text-align: center;
     color: white;
 }
+   
+/* Styling the button at the bottom of the home page */
+.bottom-btn{
+    display: flex;
+    justify-content: center;
+    
+}
 
 .btn2{
+    display: flex;
     background: #23A6F0;
-    padding: 15px 22px;
+    padding: 15px 20px;
     border: 0;
     border-radius: 20px;
     letter-spacing: 1px;
     font-weight: bold;
     color: white;
-    
+    justify-content: center;
+    position:absolute; 
+    margin-left:-145px;
+    left:50%;
+    margin-top: 20px;
 }
 
-.btn3{
+.btn3 {
+    display: flex;
     background: transparent;
-    padding: 12px 22px;
+    padding: 11px 22px;
     border: 1px solid white;
     border-radius: 21px;
     letter-spacing: 1px;
     font-weight: bold;
     color: white;
+    position:absolute; 
+    margin-left:-140px;
+    left:60%;
+    margin-top: 22px;
+}
+
+
+/* styling the text at the botto part of the home page */
+#bottom-text{
+   display: flex;
+   justify-content:  center;
+   position: relative;
+}
+
+#bottom-text>#bottom1{
+    background: white;
+    border: 2px solid white;
+    width: 18%;
+    height: 140px;
+    margin-bottom: 100px;
+}
+
+#bottom-text>#bottom2{
+    background: white;
+    border: 2px solid white;
+    width: 18%;
+    height: 140px;
+    margin-bottom: 100px;
+    margin-left: 30px;
+}
+
+#bottom-text>#bottom3{
+    background: #23A6F0;
+    border: 2px solid #23A6F0;
+    width: 18%;
+    height: 140px;
+    margin-bottom: 100px;
+    margin-left: 30px;
 }
