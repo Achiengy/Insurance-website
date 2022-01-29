@@ -1,23 +1,22 @@
-body{
+*{
     font-family: 'Montserrat';
-    margin: 0;
-    padding: 0;
-}
-
-.content{
-    width: 100%;
-    height: 3000px;
-
     
 }
 
+.content{
+    margin: 0 auto;
+    width: 100%;
+    height: 3000px;
+}
+
 .container1{
+    width: 100%;
+    margin: 0 auto;
     background-color: whitesmoke;
     min-height: 100vh;
     background-image: url(./images/banner.png);
     background-size: 100% 80%;
     background-repeat: no-repeat;
-    
     
 }
 
@@ -26,6 +25,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    
 }
 
 header h4{
@@ -62,12 +62,58 @@ header h5 {
 }
 
 header .btn1{
+    position: relative;
     color: rgb(255,255,255);
-    padding: 3px 10px;
-    display: inline-block;
-    margin-top: 5px;
-    background: blue;
+    padding: 2px 5px 2px 7px;
+    margin-top: 3px;
+    background: #23A6F0;
     font-size: 0.75em;
     font-weight: bold;
     letter-spacing: 1px;
+    border: 0;
+}
+
+/* styling the text on the home page */
+#text{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 120px;
+    position: relative;
+}
+
+h1 {
+    font-size: 4em;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+#text>p{
+    font-weight: 550;
+    letter-spacing: 4px;
+    text-align: center;
+    color: white;
+}
+
+.btn2{
+    background: #23A6F0;
+    padding: 15px 22px;
+    border: 0;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.btn3{
+    background: transparent;
+    padding: 12px 22px;
+    border: 1px solid white;
+    border-radius: 21px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: white;
 }
