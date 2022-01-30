@@ -33,7 +33,7 @@ Open the index.html file from your browser.
 
 MIT License
 
-Copyright (c) [2022] [Hope Pete]
+Copyright (c) 2022 Hope Pete
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
