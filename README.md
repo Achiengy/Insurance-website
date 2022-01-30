@@ -22,23 +22,18 @@ Open the index.html file from your browser.
 
 * An access to the Internet
 
-### Installation Process
-
 
 ## Technology Used
 * HTML - which was used to build the structure of the pages.
 
 * CSS - which was used to style the pages incuding the left aside navigation bar
 
-## Reference
-* Materialize CSS
-
 
 ## Licence
 
 MIT License
 
-Copyright (c) [2019] [Hope Pete]
+Copyright (c) [2022] [Hope Pete]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -58,7 +53,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-(#portfolio)
 
 ## Authors Info
 
