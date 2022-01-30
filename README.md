@@ -13,6 +13,8 @@
 <p>This is an Insurance Website that gives full details of the said insurance company including the price,policies and contacts.</p>
 
 ## Installation
+Clone this repository to your local system.
+Open the index.html file from your browser.
 
 ### Requirements
 
@@ -22,7 +24,7 @@
 
 ### Installation Process
 
-[Go Back to the top](#portfolio)
+
 ## Technology Used
 * HTML - which was used to build the structure of the pages.
 
@@ -31,13 +33,12 @@
 ## Reference
 * Materialize CSS
 
-[Go Back to the top](#portfolio)
 
 ## Licence
 
 MIT License
 
-Copyright (c) [2019] [Albert Byrone]
+Copyright (c) [2019] [Hope Pete]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -57,10 +58,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Go Back to the top](#portfolio)
+(#portfolio)
 
 ## Authors Info
 
 Linked - [Hope Pete](linkedin.com/in/hope-pete-071b3820a)
-
-[Go Back to the top](#portfolio
