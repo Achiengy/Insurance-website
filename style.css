@@ -366,11 +366,51 @@ h1 {
 }
 
 /* Styling the APPOINTMENT FORM */
-.form{
-    
-}
-
 #cover{
     margin-top: -18%;
-    margin-left: 20%;
+    margin-left: 28%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    height: 500px;
+    width: 400px;
+    background: white;
+    margin-left: 42.5%;
+    margin-top: -33.3%;
+}
+form>h2{
+    text-align: center;
+}
+
+form>input{
+    background: whitesmoke;
+   margin-left: 25px; 
+   margin-top: 5px;
+   border: 0;
+   width: 85%;
+   height: 7%;
+   box-shadow: 1px 1px 3px;
+   opacity: 0.6;
+   border-radius: 5px;
+}
+
+
+label{
+    padding-left: 25px;
+    padding-top: 30px;
+}
+
+#btn6{
+    background: #23A6F0;
+    margin-top: 35px;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 85%;
+    margin-left: 6%;
+    color: rgb(255,255,255);
+    font-weight: bold;
 }
