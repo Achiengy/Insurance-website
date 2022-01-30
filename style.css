@@ -215,5 +215,29 @@ h1 {
     font-size: 2em;
 }
 
+.people{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#person1{
+    border: 0.1px solid grey;
+    box-shadow: 2px 2px 5px;
+    text-align: center;
+    height: 290px;
+    width: 15%;
+}
+#person2,#person3{
+    border: 0.1px solid grey;
+    box-shadow: 2px 2px 5px;
+    margin-left: 50px;
+    text-align: center;
+    height: 290px;
+    width: 15%;
+}
+#img{
+    margin-top: 35px;
+}
 
 
