@@ -240,4 +240,15 @@ h1 {
     margin-top: 35px;
 }
 
+/* styling the logos */
+.logo-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+#logo1{
+    margin-left: 5%;
+}
+
 
