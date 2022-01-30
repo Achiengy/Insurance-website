@@ -6,7 +6,6 @@
 + [Description](#description)
 + [Installation Requirement](#Installation)
 + [Technology Used](#technology-used)
-+ [Reference](#reference)
 + [Licence](#licence)
 + [Authors Info](#author-Info)
 
@@ -56,5 +55,4 @@ SOFTWARE.
 
 
 ## Authors Info
-
 Linked - [Hope Pete](linkedin.com/in/hope-pete-071b3820a)
