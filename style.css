@@ -279,4 +279,7 @@ h1 {
 }
 
 /* Styling the PRICING section */
-
+.pricing{
+    text-align: center;
+    margin-top: 7%;
+}
