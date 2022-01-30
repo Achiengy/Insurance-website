@@ -10,7 +10,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 5000px;
+    height: 600vh;
 }
 
 .container1{
@@ -194,10 +194,12 @@ h1 {
     margin-left: 10%;
 }
 
+
+
 /* Styling elements in the THIRD container */
 .container3{
     background-color: whitesmoke;
-    min-height: 400vh;
+    min-height: 370vh;
     width: 100%;
 }
 
@@ -224,14 +226,14 @@ h1 {
 
 #person1{
     border: 0.1px solid grey;
-    box-shadow: 2px 2px 5px;
+    box-shadow: 2px 2px 3px;
     text-align: center;
     height: 290px;
     width: 15%;
 }
 #person2,#person3{
     border: 0.1px solid grey;
-    box-shadow: 2px 2px 5px;
+    box-shadow: 2px 2px 3px;
     margin-left: 50px;
     text-align: center;
     height: 290px;
@@ -405,7 +407,7 @@ label{
 
 #btn6{
     background: #23A6F0;
-    margin-top: 35px;
+    margin-top: 25px;
     border: 0;
     border-radius: 5px;
     padding: 10px 20px;
@@ -414,3 +416,14 @@ label{
     color: rgb(255,255,255);
     font-weight: bold;
 }
+
+/* Styling the wordings at the bottom */
+.words{
+    margin-top: 8%;
+    text-align: start;
+    padding-left: 15%;
+}
+.words>p{
+    color: grey;
+}
+
