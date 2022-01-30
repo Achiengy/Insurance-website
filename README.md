@@ -1,4 +1,5 @@
 # Insurance-website
+![Insurance website](/images/Desktop.png)
 
 ## Table of Content
 
@@ -16,7 +17,7 @@
 Clone this repository to your local system.
 Open the index.html file from your browser.
 
-### Requirements
+## Requirements
 
 * Either a computer,phone,tablet or an Ipad
 
@@ -24,9 +25,9 @@ Open the index.html file from your browser.
 
 
 ## Technology Used
-* HTML - which was used to build the structure of the pages.
+* HTML - used to build the structure of the web page.
 
-* CSS - which was used to style the pages incuding the left aside navigation bar
+* CSS - used to style the web page.
 
 
 ## Licence
