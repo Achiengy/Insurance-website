@@ -57,6 +57,37 @@ nav>ul>li>a {
     font-weight: 500;
 }
 
+/* Mobile responsive header section */
+@media (max-width:800px) {
+    header{
+        display: block;
+        width: 200px;
+        padding: 0;
+    }
+
+    nav ul li a{
+        font-size: 15px;
+    }
+
+    #logo{
+        margin-left: 20%;
+        font-size: 15px;
+    }
+
+    header h5{
+        font-size: 10px;
+        margin-top: 5%;
+    }
+
+    .btn1{
+        padding: 5px 15px;
+        display: flex;
+        margin-top: 10%;
+    }
+   
+    
+}
+
 header h5 {
     color: rgb(255,255,255);
     font-size: 15px;
@@ -65,15 +96,14 @@ header h5 {
 .btn1{
     display: flex;
     background: #23A6F0;
-    padding: 10px 25px;
-    padding-left: 5px;
+    padding: 10px 30px;
     border: 1px solid #23A6F0;
-    border-radius: 5px;
+    border-radius: 3px;
     letter-spacing: 1px;
     font-weight: bold;
     color: white;
     position:absolute; 
-    right: 23%;
+    right: 18%;
     margin-top: 20px;
 }
 
@@ -147,6 +177,13 @@ h1 {
    position: relative;
 }
 
+#bottom1 p,#bottom2 p{
+    color: grey
+}
+#bottom3 h2,p{
+    color: white;
+}
+
 #user{
     margin-top: 10px;
     margin-left: 10%;
@@ -156,6 +193,7 @@ h1 {
     margin-left: 10%;
     margin-top: 3px;
 }
+
 
 #bottom1,#bottom2{
     background: white;
@@ -184,6 +222,9 @@ h1 {
     justify-content: center;
     text-align: center;
 }
+.container2 p{
+    color: gray;
+}
 
 #msg1{
     margin-top: 6%;
@@ -201,6 +242,9 @@ h1 {
     background-color: whitesmoke;
     min-height: 370vh;
     width: 100%;
+}
+.container3 p{
+    color: grey;
 }
 
 #industry{
@@ -242,6 +286,10 @@ h1 {
 #img{
     margin-top: 35px;
 }
+.checked {
+    color: goldenrod;
+  }
+
 
 /* styling the logos */
 .logo-img{
@@ -295,11 +343,18 @@ h1 {
 .pricing>p{
     color: gray;
 }
+.pricing h2{
+    font-size: 2.5em;
+}
 
 .pricing-box{
    display: flex;
    justify-content: center;
    margin-top: 8%;
+}
+
+sub{
+    font-weight: lighter;
 }
 
 #free{
@@ -315,6 +370,9 @@ h1 {
 }
 #free>h4{
     color: gray;
+}
+#free p{
+    color: black;
 }
 
 #standard{
@@ -346,7 +404,7 @@ h1 {
     border-radius: 5px;
 }
 
-/* Styling the branches section */
+/* Styling the BRANCHES section */
 .branches{
     background-color: #252B42;
     width: 100%;
@@ -357,7 +415,12 @@ h1 {
     padding-top: 5%;
 }
 .branches>h2{
-        font-size: 3em;
+        font-size: 2.5em;
+}
+.branches p{
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 100;
 }
 
 #clouds{
@@ -366,6 +429,7 @@ h1 {
     right: 10%;
     margin-top: -17%;
 }
+
 
 /* Styling the APPOINTMENT FORM */
 #cover{
@@ -417,9 +481,10 @@ label{
     font-weight: bold;
 }
 
+
 /* Styling the wordings at the bottom */
 .words{
-    margin-top: 8%;
+    margin-top: 7%;
     text-align: start;
     padding-left: 10%;
 }
@@ -450,8 +515,15 @@ label{
     justify-content: space-evenly;
 }
 
-#info1{
-    line-height: 20px;
+ul li {
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+}
+
+#info1,#info2,#info3,#info4,#info5{
+    line-height: 35px;
 }
 
 
