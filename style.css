@@ -108,7 +108,7 @@ h1 {
     
 }
 
-.btn2{
+#btn2{
     display: flex;
     background: #23A6F0;
     padding: 15px 20px;
@@ -124,7 +124,7 @@ h1 {
     margin-top: 20px;
 }
 
-.btn3 {
+#btn3 {
     display: flex;
     background: transparent;
     padding: 11px 22px;
@@ -141,7 +141,7 @@ h1 {
 
 
 /* styling the text at the bottom  part of the home page */
-#bottom-text{
+.bottom-text{
    display: flex;
    justify-content:  center;
    position: relative;
@@ -157,20 +157,11 @@ h1 {
     margin-top: 3px;
 }
 
-#bottom1{
+#bottom1,#bottom2{
     background: white;
     border:0;
     width: 16%;
     height: 200px;
-    margin-left: 30px;
-}
-
-#bottom2{
-    background: white;
-    border: 0;
-    width: 16%;
-    height: 200px;
-    margin-left: 30px;
 }
 
 #bottom3{
@@ -178,6 +169,9 @@ h1 {
     border: 0;
     width: 16%;
     height: 200px;
+}
+
+#bottom2,#bottom3{
     margin-left: 30px;
 }
 
@@ -251,4 +245,38 @@ h1 {
     margin-left: 5%;
 }
 
+/* Styling the subscription box */
+.subscription{
+    border: 1px solid;
+    width: 50%;
+    height: 100px;
+    background: linear-gradient(indigo,violet);
+    color: white;
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    margin-left: 25%;
+}
+.subscription>h3{
+    margin-left: 6%;
+}
+
+#email{
+   width: 35%;
+   height: 40px;
+   border: 0;
+   margin-left: 18%;
+   border-radius: 5px 0 0 5px;
+}
+
+#btn4{
+    background-color: #23A6F0;
+    height: 40px;
+    width: 10%;
+    border: 1px solid white;
+    color: white;
+    border-radius: 0 5px 5px 0 ;
+}
+
+/* Styling the PRICING section */
 
