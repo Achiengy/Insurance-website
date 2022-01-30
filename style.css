@@ -342,3 +342,27 @@ h1 {
     border: 0;
     border-radius: 5px;
 }
+
+/* Styling the branches section */
+.branches{
+    background-color: #252B42;
+    width: 100%;
+    height: 75vh;
+    margin-top: 100px;
+    color: white;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+.branches>h2{
+        font-size: 3em;
+}
+
+#clouds{
+    float: right;
+    position: absolute;
+    right: 10%;
+    margin-top: -17%;
+    
+
+
+}
