@@ -199,4 +199,21 @@ h1 {
     margin-left: 10%;
 }
 
+/* Styling elements in the THIRD container */
+.container3{
+    background-color: whitesmoke;
+    min-height: 400vh;
+    width: 100%;
+}
+
+#industry{
+    text-align: center;
+    padding-top: 4%;
+}
+#industry>h2{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+
 
