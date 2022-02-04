@@ -13,8 +13,7 @@
 <p>This is an Insurance Website that gives full details of the said insurance company including the price,policies and contacts.</p>
 
 ## Installation
-Clone this repository to your local system.
-Open the index.html file from your browser.
+Clone this repository to your local system.https://github.com/Achiengy/Insurance-website.git
 
 ## Requirements
 
