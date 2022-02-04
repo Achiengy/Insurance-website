@@ -55,4 +55,4 @@ SOFTWARE.
 
 
 ## Authors Info
-Linked - [Hope Pete](linkedin.com/in/hope-pete-071b3820a)
+Linked - [Hope Pete](https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3Bm11EDIJVSQu29ovQ2888fA%3D%3D)
